@@ -6,7 +6,6 @@ import {splitIntoWords} from "./01";
 function App() {
   return (
     <div className="App">
-    <splitIntoWords/>
     </div>
   );
 }

@@ -10,5 +10,10 @@ export function mult(a: number, b: number) {
 
 // принимает строку, возвращает массив слов
 export function splitIntoWords (sentence:string) {
-    return ["hello", "my", "friends"]
+    const words = sentence.toLowerCase().split(' ')
+
+        return words.filter(w => w !== ''&& w !== '-')
+        .map(w => w
+            .replace('!','')
+            .replace('.',''))
 }
