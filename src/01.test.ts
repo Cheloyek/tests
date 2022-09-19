@@ -1,3 +1,4 @@
+// тесты
 import {mult, splitIntoWords, sum} from "./01";
 
 //npm test - запуск теста
